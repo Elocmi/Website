@@ -87,6 +87,29 @@ h2 {
   width: 26px;
 }
 
+.social-links a {
+  padding: 0 8px;
+}
+
+.twitter {
+  /* I used https://codepen.io/sosuke/pen/Pjoqqp to figure out this. Hex: 1da1f2 */
+  filter: invert(51%) sepia(14%) saturate(5044%) hue-rotate(176deg) brightness(100%) contrast(90%);
+}
+
+.mixer {
+  /* Hex: 00BBF1 */
+  filter: invert(65%) sepia(71%) saturate(7141%) hue-rotate(168deg) brightness(105%) contrast(101%);
+}
+
+.github {
+  /* Hex: 232121 */
+  filter: invert(10%) sepia(12%) saturate(196%) hue-rotate(314deg) brightness(96%) contrast(91%);
+}
+
+a {
+  text-decoration: none;
+}
+
 .right {
   background-color: rgb(247, 249, 250);
 border-radius: 1rem;
